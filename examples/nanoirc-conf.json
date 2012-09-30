@@ -1,0 +1,9 @@
+{
+    "server": "irc.freenode.org",
+    "nick": "mynick",
+    "channels": [
+        "#test-nanoirc1",
+        "#test-nanoirc2"
+    ]
+}
+

@@ -1,0 +1,28 @@
+{
+    "name": "nanoirc",
+    "description": "console irc client",
+    "version": "0.1.0",
+    "bin": {
+        "nanoirc": "./bin/nanoirc"
+    },
+    "main": "index",
+    "repository": "http://github.com/albertosantini/node-nanoirc",
+    "keywords": ["irc"],
+    "author": "Alberto Santini",
+    "licenses": [
+        {
+           "type": "MIT",
+           "url": "http://github.com/albertosantini/node-nanoirc/raw/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">=0.8.x"
+    },
+    "preferGlobal": true,
+    "dependencies": {
+        "irc-stream": ">=0.0.1",
+        "colors": ">=0.6.x"
+
+    }
+}
+

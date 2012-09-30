@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+    nanoirc = require('../lib/nanoirc');
+
+var config = process.env.home + '/.nanoirc.json';
+
+fs.readFile(config, function(err, data) {
+    var options = JSON.parse(data) || {};
+
+    nanoirc.start(options);
+});
