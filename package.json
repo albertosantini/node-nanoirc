@@ -1,7 +1,7 @@
 {
     "name": "nanoirc",
     "description": "console irc client",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "bin": {
         "nanoirc": "./bin/nanoirc"
     },
@@ -22,7 +22,6 @@
     "dependencies": {
         "irc-stream": ">=0.0.1",
         "colors": ">=0.6.x"
-
     }
 }
 
