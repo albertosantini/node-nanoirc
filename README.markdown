@@ -3,6 +3,8 @@ NANOIRC
 
 nanoirc is a very simple console IRC client based on [node-stream-irc](https://github.com/jslush/node-irc-stream) IRC library.
 
+As reference on stream programming I recommend [the stream handbook](https://github.com/substack/stream-handbook).
+
 All the messages of the channels joined are displayed in the console. The user
 can choice the channel pressing tab: the list of the channels is displayed. Then
 the user can add the message and press enter to send it. The user may send
@@ -16,7 +18,8 @@ contains the nick of the user, it is displayed in red.
 Todo
 ====
 
-- Add auto completion for a user in a channel.
+- Add auto completion for a user in a channel: at the moment it is loaded a list
+  of users, but nick/join/part events are not handled.
 
 
 Installation
