@@ -21,6 +21,9 @@ Todo
 - Add auto completion for a user in a channel: at the moment it is loaded a list
   of users, but nick/join/part events are not handled.
 
+- Manage the syndicated urls in the channel: maybe opening automatically the
+  link.
+
 
 Installation
 ============
