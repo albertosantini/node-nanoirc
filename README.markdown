@@ -46,7 +46,8 @@ For instance,
 
     {
         "server": "irc.freenode.org",
-        "nick": "imynick",
+        "nick": "mynick",
+        "password": "mypassword",
         "channels": [
             "#test-nanoirc-1",
             "#test-nanoirc-2"
