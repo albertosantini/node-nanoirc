@@ -1,7 +1,7 @@
 NANOIRC
 =======
 
-nanoirc is a very simple console IRC client based on [node-stream-irc](https://github.com/jslush/node-irc-stream) IRC library.
+nanoirc is a _very simple_ console IRC client based on [node-irc](https://github.com/martynsmith/node-irc) IRC library.
 
 As reference on stream programming I recommend [the stream handbook](https://github.com/substack/stream-handbook).
 
@@ -57,11 +57,3 @@ For instance,
 Then you can start the client:
 
     nanoirc
-
-
-Notes
-=====
-
-However this app is not yet available in the npm registry. You should install it
-manually, cloning the repository and adding the dependencies (node-stream-irc,
-event-stream and colors).
