@@ -38,7 +38,6 @@ Configuration
 nanoirc reads a file in the HOME directory: .nanoirc.json.
 
 The configuration file contains the server, the channels and the nickname info.
-Be aware the name of the channels are case sensitive.
 
 For instance,
 
