@@ -1,5 +1,7 @@
 NANOIRC
 =======
+[![NPM version](https://badge.fury.io/js/nanoirc.png)](http://badge.fury.io/js/nanoirc)
+[![NGN Dependencies](https://david-dm.org/albertosantini/node-nanoirc.png)](https://david-dm.org/albertosantini/node-nanoirc)
 
 nanoirc is a _very simple_ console IRC client based on [node-irc](https://github.com/martynsmith/node-irc) IRC library.
 
