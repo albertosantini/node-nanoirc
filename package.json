@@ -9,19 +9,14 @@
     "repository": "http://github.com/albertosantini/node-nanoirc",
     "keywords": ["irc"],
     "author": "Alberto Santini",
-    "licenses": [
-        {
-           "type": "MIT",
-           "url": "http://github.com/albertosantini/node-nanoirc/raw/master/LICENSE"
-        }
-    ],
+    "license": "MIT",
     "engines": {
         "node": ">=0.8.x"
     },
     "preferGlobal": true,
     "dependencies": {
         "irc": "~0.3.x",
-        "colors": "0.6.x"
+        "colors": "~0.6.x"
     }
 }
 
