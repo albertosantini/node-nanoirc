@@ -31,7 +31,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install -g nanoirc
 
-Tested with node 0.8.x.
+Tested with node 0.10.18.
 
 
 Configuration
