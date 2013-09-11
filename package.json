@@ -1,7 +1,7 @@
 {
     "name": "nanoirc",
     "description": "Console irc client",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "bin": {
         "nanoirc": "./bin/nanoirc"
     },

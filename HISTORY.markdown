@@ -1,3 +1,8 @@
+0.2.6 / 2013-09-11
+==================
+
+* A few extra changes to make it work properly on linux.
+
 0.2.5 / 2013-09-10
 ==================
 
