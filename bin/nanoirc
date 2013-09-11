@@ -6,7 +6,7 @@ var fs = require('fs'),
 var config = process.env.HOME + '/.nanoirc.json';
 
 fs.readFile(config, function(err, data) {
-    var options = JSON.parse(data) || {};
+    var options = JSON.parse(data || "{}");
 
     nanoirc.start(options);
 });
