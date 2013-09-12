@@ -37,7 +37,7 @@ Tested with node 0.10.18.
 Configuration
 =============
 
-nanoirc reads a file in the HOME directory: .nanoirc.json.
+nanoirc reads a file in the HOME directory: `.nanoirc.json`.
 
 The configuration file contains the server, the channels and the nickname info.
 
