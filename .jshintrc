@@ -19,6 +19,5 @@
     "maxlen": 80,
     "onevar": true,
     "plusplus": true,
-    "regexp": true,
     "white": true
 }
