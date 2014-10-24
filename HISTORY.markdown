@@ -1,3 +1,8 @@
+0.4.0 / 2014-10-24
+==================
+
+* Fix case for nanoirc script [issue #3](https://github.com/albertosantini/node-nanoirc/issues/3)
+
 0.3.0 / 2014-03-04
 ==================
 
@@ -27,4 +32,4 @@
 0.1.0 / 2012-09-30
 ==================
 
-* Initial release. Not  released in npm registry.
+* Initial release. Not released in npm registry.
