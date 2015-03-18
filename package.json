@@ -14,9 +14,17 @@
         "node": ">=0.8.x"
     },
     "preferGlobal": true,
+    "scripts": {
+        "test": "grunt"
+    },
     "dependencies": {
         "colors": "~1.0.3",
         "irc": "~0.3.7"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-cli": "~0.1.13",
+        "grunt-eslint": "~9.0.0"
     }
 }
 
