@@ -7,8 +7,6 @@ NANOIRC
 
 nanoirc is a _very simple_ console IRC client based on [node-irc](https://github.com/martynsmith/node-irc) IRC library.
 
-As reference on stream programming I recommend [the stream handbook](https://github.com/substack/stream-handbook).
-
 All the messages of the channels joined are displayed in the console. The user
 can choice the channel pressing tab: the list of the channels is displayed. Then
 the user can add the message and press enter to send it. The user may send
@@ -18,14 +16,6 @@ channel: the message is sent to the last channel used.
 The messages are displayed with time, channel and user info. If a message
 contains the nick of the user, it is displayed in red.
 
-
-Todo
-====
-
-- Manage the syndicated urls in the channel: maybe opening automatically the
-  link.
-
-
 Installation
 ============
 
@@ -33,7 +23,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install -g nanoirc
 
-Tested with node 0.10.18.
+Tested with node 0.12.x.
 
 
 Configuration
