@@ -1,5 +1,7 @@
 NANOIRC
 =======
+
+[![Build Status](https://travis-ci.org/albertosantini/node-nanoirc.png)](https://travis-ci.org/albertosantini/node-nanoirc)
 [![NPM version](https://badge.fury.io/js/nanoirc.png)](http://badge.fury.io/js/nanoirc)
 [![NGN Dependencies](https://david-dm.org/albertosantini/node-nanoirc.png)](https://david-dm.org/albertosantini/node-nanoirc)
 
