@@ -19,12 +19,12 @@
     },
     "dependencies": {
         "colors": "~1.0.3",
-        "irc": "~0.3.7"
+        "irc": "~0.3.11"
     },
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-cli": "~0.1.13",
-        "grunt-eslint": "~9.0.0"
+        "grunt-eslint": "~11.0.0"
     }
 }
 
