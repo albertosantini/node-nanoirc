@@ -1,3 +1,8 @@
+1.1.0 / 2015-06-25
+==================
+
+* Add colours customization [PR #5](https://github.com/albertosantini/node-nanoirc/pull/5)
+
 1.0.3 / 2015-06-16
 ==================
 
