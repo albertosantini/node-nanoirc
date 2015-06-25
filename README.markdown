@@ -23,7 +23,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install -g nanoirc
 
-Tested with Node.js 0.12.x and io.js 1.8.x.
+Tested with Node.js 0.12.x and io.js 2.3.x.
 
 
 Configuration
