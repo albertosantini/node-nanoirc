@@ -31,7 +31,7 @@ Configuration
 
 nanoirc reads a file in the HOME directory: `.nanoirc.json`.
 
-The configuration file contains the server, the channels, the nickname info and the colors to use for messages.
+The configuration file contains the server, the channels, the nickname info and the colors to use.
 
 For instance,
 
@@ -46,7 +46,8 @@ For instance,
         "colors": {
             "timestamp": "yellow",
             "channel": "yellow",
-            "user": "green"
+            "user": "green",
+            "mentions": "red"
         }
     }
 
