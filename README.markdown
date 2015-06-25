@@ -31,7 +31,7 @@ Configuration
 
 nanoirc reads a file in the HOME directory: `.nanoirc.json`.
 
-The configuration file contains the server, the channels and the nickname info.
+The configuration file contains the server, the channels, the nickname info and the colors to use.
 
 For instance,
 
@@ -42,7 +42,13 @@ For instance,
         "channels": [
             "#test-nanoirc-1",
             "#test-nanoirc-2"
-        ]
+        ],
+        "colors": {
+            "timestamp": "yellow",
+            "channel": "yellow",
+            "user": "green",
+            "mentions": "red"
+        }
     }
 
 Then you can start the client:
