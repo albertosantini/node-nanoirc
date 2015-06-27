@@ -39,9 +39,11 @@ For instance,
         "server": "irc.freenode.org",
         "nick": "mynick",
         "password": "mypassword",
+        "showJoinMessages": false,
+        "showPartMessages": false,
         "channels": [
-            "#test-nanoirc-1",
-            "#test-nanoirc-2"
+            "#test-nanoirc1",
+            "#test-nanoirc2"
         ],
         "colors": {
             "timestamp": "yellow",
