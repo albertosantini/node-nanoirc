@@ -1,7 +1,12 @@
+1.2.0 / 2015-06-27
+==================
+
+* Add support for join & part messages and the server MOTD. [PR #6](https://github.com/albertosantini/node-nanoirc/pull/6)
+
 1.1.0 / 2015-06-25
 ==================
 
-* Add colours customization [PR #5](https://github.com/albertosantini/node-nanoirc/pull/5)
+* Add colours customization. [PR #5](https://github.com/albertosantini/node-nanoirc/pull/5)
 
 1.0.3 / 2015-06-16
 ==================
@@ -27,7 +32,7 @@
 0.4.0 / 2014-10-24
 ==================
 
-* Fix case for nanoirc script [issue #3](https://github.com/albertosantini/node-nanoirc/issues/3)
+* Fix case for nanoirc script. [issue #3](https://github.com/albertosantini/node-nanoirc/issues/3)
 
 0.3.0 / 2014-03-04
 ==================

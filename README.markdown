@@ -56,3 +56,21 @@ For instance,
 Then you can start the client:
 
     nanoirc
+
+Contributors
+============
+
+```
+ project  : node-nanoirc
+ repo age : 2 years, 9 months
+ active   : 38 days
+ commits  : 69
+ files    : 13
+ authors  :
+    55  icebox                  79.7%
+     4  Alberto Santini         5.8%
+     4  Joe Haines              5.8%
+     3  albertosantini          4.3%
+     2  clux                    2.9%
+     1  Eirik Albrigtsen        1.4%
+```
