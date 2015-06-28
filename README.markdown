@@ -35,27 +35,41 @@ The configuration file contains the server, the channels, the nickname info and 
 
 For instance,
 
-    {
-        "server": "irc.freenode.org",
-        "nick": "mynick",
-        "password": "mypassword",
-        "showJoinMessages": false,
-        "showPartMessages": false,
-        "channels": [
-            "#test-nanoirc1",
-            "#test-nanoirc2"
+```json
+{
+    "server": "irc.freenode.org",
+    "nick": "mynick",
+    "password": "mypassword",
+    "showJoinMessages": false,
+    "showPartMessages": false,
+    "channels": {
+        "irc.freenode.org": [
+            "#testnanoirc",
+            "#testnanoirc2"
         ],
-        "colors": {
-            "timestamp": "yellow",
-            "channel": "yellow",
-            "user": "green",
-            "mentions": "red"
-        }
+        "irc.synirc.net": [
+            "#testnanoirc",
+            "#testnanoirc2"
+        ]
+    },
+    "colors": {
+        "timestamp": "yellow",
+        "channel": "yellow",
+        "user": "green",
+        "mentions": "red"
     }
+}
+```
 
 Then you can start the client:
 
     nanoirc
+
+You can connect to a server other than the one in `.nanoirc.json` with:
+
+    nanoirc <servername>
+
+For example, `nanoirc irc.freenode.org` will connect to `irc.freenode.org` and join all of the channels in the `channels: { irc.freenode.org: [...]}` section of your `.nanoirc.json`
 
 Contributors
 ============

@@ -6,8 +6,11 @@ var fs = require("fs"),
 var home = process.env.HOME || process.env.USERPROFILE,
     config =  home + "/.nanoirc.json";
 
+var args = process.argv.slice(2);
+var server = args.length === 1 ? args[0] : null;
+
 fs.readFile(config, function(err, data) {
     var options = JSON.parse(data || "{}");
 
-    nanoirc.start(options);
+    nanoirc.start(options, server);
 });
