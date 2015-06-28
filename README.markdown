@@ -41,10 +41,16 @@ For instance,
         "password": "mypassword",
         "showJoinMessages": false,
         "showPartMessages": false,
-        "channels": [
-            "#test-nanoirc1",
-            "#test-nanoirc2"
-        ],
+        "channels": {
+            "irc.freenode.org": [
+                "#testnanoirc",
+                "#testnanoirc2"
+            ],
+            "irc.synirc.net": [
+                "#testnanoirc",
+                "#testnanoirc2"
+            ]
+        },
         "colors": {
             "timestamp": "yellow",
             "channel": "yellow",
