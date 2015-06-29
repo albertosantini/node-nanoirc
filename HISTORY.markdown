@@ -1,3 +1,9 @@
+1.3.0 / 2015-06-29
+==================
+
+* Add support for connecting to a different server. [PR #7](https://github.com/albertosantini/node-nanoirc/pull/7)
+* Add config for different channels per server.
+
 1.2.0 / 2015-06-27
 ==================
 
