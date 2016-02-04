@@ -1,3 +1,10 @@
+1.4.0 / 2016-02-04
+==================
+
+* Update irc 0.4.1.
+* Update eslint 2.0.0-rc.0.
+* Remove grunt in the build workflow.
+
 1.3.0 / 2015-06-29
 ==================
 
