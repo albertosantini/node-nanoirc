@@ -23,7 +23,7 @@
         "irc": "~0.4.1"
     },
     "devDependencies": {
-        "eslint": "~2.0.0",
+        "eslint": "~2.2.0",
         "eslint-config-eslint": "~3.0.0"
     }
 }
