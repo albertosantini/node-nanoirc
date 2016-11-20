@@ -76,15 +76,15 @@ Contributors
 
 ```
  project  : node-nanoirc
- repo age : 3 years, 4 months
- active   : 50 days
- commits  : 86
+ repo age : 4 years, 2 months
+ active   : 57 days
+ commits  : 96
  files    : 12
  authors  :
-    68  icebox                  79.1%
-     7  Joe Haines              8.1%
-     5  Alberto Santini         5.8%
-     3  albertosantini          3.5%
-     2  clux                    2.3%
-     1  Eirik Albrigtsen        1.2%
+    78  icebox                  81.2%
+     7  Joe Haines              7.3%
+     5  Alberto Santini         5.2%
+     3  albertosantini          3.1%
+     2  clux                    2.1%
+     1  Eirik Albrigtsen        1.0%
 ```
