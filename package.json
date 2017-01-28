@@ -1,7 +1,7 @@
 {
     "name": "nanoirc",
     "description": "Console irc client",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "bin": {
         "nanoirc": "./bin/nanoirc"
     },
@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": ">=0.12.x"
+        "node": ">=6.x"
     },
     "preferGlobal": true,
     "scripts": {
@@ -23,7 +23,6 @@
         "irc": "~0.5.2"
     },
     "devDependencies": {
-        "eslint": "^3.14.1",
-        "eslint-config-eslint": "~3.0.0"
+        "eslint": "^3.14.1"
     }
 }
