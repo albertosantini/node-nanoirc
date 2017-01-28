@@ -20,10 +20,10 @@
     },
     "dependencies": {
         "colors": "~1.1.2",
-        "irc": "~0.5.1"
+        "irc": "~0.5.2"
     },
     "devDependencies": {
-        "eslint": "^3.10.2",
+        "eslint": "^3.14.1",
         "eslint-config-eslint": "~3.0.0"
     }
 }
