@@ -7,7 +7,9 @@
     },
     "main": "index",
     "repository": "http://github.com/albertosantini/node-nanoirc",
-    "keywords": ["irc"],
+    "keywords": [
+        "irc"
+    ],
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
@@ -19,10 +21,10 @@
         "lint": "eslint index.js lib/**/*.js"
     },
     "dependencies": {
-        "colors": "~1.1.2",
-        "irc": "~0.5.2"
+        "colors": "^1.1.2",
+        "irc": "^0.5.2"
     },
     "devDependencies": {
-        "eslint": "^3.14.1"
+        "eslint": "^4.2.0"
     }
 }
