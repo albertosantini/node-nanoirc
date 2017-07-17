@@ -25,12 +25,14 @@ rules:
     comma-dangle: "error"
     comma-spacing: "error"
     comma-style: ["error", "last"]
+    computed-property-spacing: "error"
     consistent-return: "error"
     curly: ["error", "all"]
     default-case: "error"
     dot-notation: ["error", { allowKeywords: true }]
     eol-last: "error"
     eqeqeq: "error"
+    for-direction: "error"
     func-call-spacing: "error"
     func-style: ["error", "declaration"]
     generator-star-spacing: "error"
@@ -43,16 +45,16 @@ rules:
         beforeLineComment: true,
         afterLineComment: false
     }]
+    max-statements-per-line: "error"
     new-cap: "error"
-    newline-after-var: "error"
     new-parens: "error"
     no-alert: "error"
     no-array-constructor: "error"
     no-caller: "error"
     no-confusing-arrow: "error"
-    # no-console: "error"
     no-console: "off"
     no-delete-var: "error"
+    no-else-return: "error"
     no-eval: "error"
     no-extend-native: "error"
     no-extra-bind: "error"
@@ -69,7 +71,7 @@ rules:
     no-mixed-spaces-and-tabs: ["error", false]
     no-multi-spaces: "error"
     no-multi-str: "error"
-    no-native-reassign: "off"
+    no-multiple-empty-lines: ["error", {max: 2, maxBOF: 0, maxEOF: 0}]
     no-nested-ternary: "error"
     no-new: "error"
     no-new-func: "error"
@@ -81,7 +83,6 @@ rules:
     no-proto: "error"
     no-redeclare: "error"
     no-return-assign: "error"
-    prefer-promise-reject-errors: "error"
     no-script-url: "error"
     no-self-assign: "error"
     no-sequences: "error"
@@ -94,9 +95,9 @@ rules:
     no-undefined: "error"
     no-underscore-dangle: ["error", {allowAfterThis: true}]
     no-unmodified-loop-condition: "error"
+    no-unneeded-ternary: "error"
     no-unused-expressions: "error"
     no-unused-vars: ["error", {vars: "all", args: "after-used"}]
-    # no-use-before-define: "error"
     no-use-before-define: ["error", "nofunc"]
     no-useless-computed-key: "error"
     no-useless-concat: "error"
@@ -108,13 +109,27 @@ rules:
     object-curly-spacing: ["error", "always"]
     object-shorthand: "error"
     one-var-declaration-per-line: "error"
+    operator-linebreak: "error"
+    padding-line-between-statements: [
+        "error",
+        {
+            blankLine: "always",
+            prev: ["const", "let", "var"],
+            next: "*"
+        },
+        {
+            blankLine: "any",
+            prev: ["const", "let", "var"],
+            next: ["const", "let", "var"]
+        }
+    ]
     prefer-arrow-callback: "error"
     prefer-const: "error"
+    prefer-promise-reject-errors: "error"
     prefer-template: "error"
     quotes: ["error", "double"]
     quote-props: ["error", "as-needed"]
     radix: "error"
-    # require-jsdoc: "error"
     require-jsdoc: "off"
     semi: "error"
     semi-spacing: ["error", {before: false, after: true}]
@@ -126,6 +141,7 @@ rules:
     spaced-comment: ["error", "always", { exceptions: ["-"]}]
     strict: ["error", "global"]
     template-curly-spacing: ["error", "never"]
+    template-tag-spacing: "error"
     valid-jsdoc: ["error", {
         prefer: { "return": "returns"},
         preferType: {
