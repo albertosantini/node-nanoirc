@@ -1,16 +1,20 @@
 #!/usr/bin/env node
 
-var fs = require("fs"),
-    nanoirc = require("../lib/nanoirc");
+"use strict";
 
-var home = process.env.HOME || process.env.USERPROFILE,
-    config =  home + "/.nanoirc.json";
+const fs = require("fs");
+const nanoirc = require("../lib/nanoirc");
 
-var args = process.argv.slice(2);
-var server = args.length === 1 ? args[0] : null;
+const home = process.env.HOME || process.env.USERPROFILE;
+const configFile = `${home}/.nanoirc.json`;
 
-fs.readFile(config, function(err, data) {
-    var options = JSON.parse(data || "{}");
+const args = process.argv.slice(2);
+const server = args.length === 1 ? args[0] : null;
 
-    nanoirc.start(options, server);
+const config = fs.readFileSync(configFile);
+const options = JSON.parse(config || "{}");
+
+nanoirc.start({
+    options,
+    server
 });
