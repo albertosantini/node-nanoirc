@@ -5,16 +5,35 @@
 const fs = require("fs");
 const nanoirc = require("../lib/nanoirc");
 
-const home = process.env.HOME || process.env.USERPROFILE;
-const configFile = `${home}/.nanoirc.json`;
-
 const args = process.argv.slice(2);
 const server = args.length === 1 ? args[0] : null;
 
+const home = process.env.HOME || process.env.USERPROFILE;
+const configFile = `${home}/.nanoirc.json`;
 const config = fs.readFileSync(configFile);
-const options = JSON.parse(config || "{}");
+const defaults = {
+    server: "irc.freenode.org",
+    nick: "nick-nanoirc",
+    password: "nomoresecrets",
+    channels: {
+        "irc.freenode.org": [
+            "#test-nanoirc"
+        ]
+    },
+    showJoinMessages: true,
+    showPartMessages: true,
+    colors: {
+        timestamp: "yellow",
+        channel: "yellow",
+        user: "green",
+        mentions: "red"
+    }
+};
+const options = Object.assign(defaults, JSON.parse(config || "{}"));
 
-nanoirc.start({
-    options,
-    server
-});
+options.server = server || options.server;
+if (!options.channels[options.server]) {
+    options.channels[options.server] = [];
+}
+
+nanoirc.start({ options });
