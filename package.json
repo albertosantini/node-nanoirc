@@ -21,10 +21,10 @@
         "lint": "eslint index.js bin/nanoirc lib/**/*.js"
     },
     "dependencies": {
-        "colors": "^1.3.2",
+        "colors": "^1.3.3",
         "irc-upd": "^0.10.0"
     },
     "devDependencies": {
-        "eslint": "^5.9.0"
+        "eslint": "^5.10.0"
     }
 }
