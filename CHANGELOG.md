@@ -1,7 +1,15 @@
+1.10.0 / 2018-12-15
+==================
+
+* Add msg command.
+* Fix ctcp command.
+* Refactor starting logic.
+* Improve print error and uncaught exception.
+
 1.9.0 / 2018-12-03
 ==================
 
-* Refactoring console handling.
+* Refactor console handling.
 
 1.8.0 / 2018-11-30
 ==================
