@@ -1,3 +1,8 @@
+1.10.1 / 2019-01-30
+==================
+
+* Fix line overwriting when the input line is not empty.
+
 1.10.0 / 2018-12-15
 ==================
 
