@@ -1,8 +1,8 @@
 NANOIRC
 =======
 
-[![Build Status](https://travis-ci.org/albertosantini/node-nanoirc.png)](https://travis-ci.org/albertosantini/node-nanoirc)
-[![NPM version](https://badge.fury.io/js/nanoirc.png)](http://badge.fury.io/js/nanoirc)
+[![Build Status](https://travis-ci.org/albertosantini/node-nanoirc.svg)](https://travis-ci.org/albertosantini/node-nanoirc)
+[![NPM version](https://badge.fury.io/js/nanoirc.svg)](http://badge.fury.io/js/nanoirc)
 
 nanoirc is a _very simple_ console IRC client based on [node-irc](https://github.com/martynsmith/node-irc) IRC library.
 
@@ -22,7 +22,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install -g nanoirc
 
-Tested with Node.js 8.x.
+Tested with Node.js 10.x.
 
 
 Configuration
@@ -75,15 +75,15 @@ Contributors
 
 ```
  project  : node-nanoirc
- repo age : 4 years, 4 months
- active   : 58 days
- commits  : 103
- files    : 12
+ repo age : 6 years
+ active   : 65 days
+ commits  : 139
+ files    : 18
  authors  :
-    85  icebox                  82.5%
-     7  Joe Haines              6.8%
-     5  Alberto Santini         4.9%
-     3  albertosantini          2.9%
-     2  clux                    1.9%
-     1  Eirik Albrigtsen        1.0%
+   121  icebox                  87.1%
+     7  Joe Haines              5.0%
+     5  Alberto Santini         3.6%
+     3  albertosantini          2.2%
+     2  clux                    1.4%
+     1  Eirik Albrigtsen        0.7%
 ```
