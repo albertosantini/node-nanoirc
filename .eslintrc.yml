@@ -165,7 +165,9 @@ rules:
     quotes: ["error", "double", {avoidEscape: true}]
     quote-props: ["error", "as-needed"]
     radix: "error"
+    require-atomic-updates: "error"
     require-jsdoc: "off"
+    rest-spread-spacing: "error"
     semi: "error"
     semi-spacing: ["error", {before: false, after: true}]
     semi-style: "error"
