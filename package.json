@@ -25,6 +25,6 @@
         "irc-upd": "^0.10.0"
     },
     "devDependencies": {
-        "eslint": "^5.13.0"
+        "eslint": "^6.1.0"
     }
 }
