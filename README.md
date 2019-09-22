@@ -2,7 +2,7 @@ NANOIRC
 =======
 
 [![Build Status](https://travis-ci.org/albertosantini/node-nanoirc.svg)](https://travis-ci.org/albertosantini/node-nanoirc)
-[![NPM version](https://badge.fury.io/js/nanoirc.svg)](http://badge.fury.io/js/nanoirc)
+![](https://github.com/albertosantini/node-nanoirc/workflows/CI/badge.svg)
 
 nanoirc is a _very simple_ console IRC client based on [node-irc](https://github.com/martynsmith/node-irc) IRC library.
 
